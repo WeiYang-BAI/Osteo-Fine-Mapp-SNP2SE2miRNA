@@ -1,7 +1,8 @@
 # Fine-Mapp-SNP2SE2miRNA
 
 Use the follow command to download:
-  git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA.git
+
+	git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA.git 
 
 Please run the follow command to check the helpdoc first:
   ./reference_panel_re-construction.py -H
