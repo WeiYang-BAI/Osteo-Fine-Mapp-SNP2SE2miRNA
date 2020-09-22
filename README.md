@@ -28,3 +28,14 @@ The script will output the following five files:
 	-Interaction_SE2miRNA.tsv, interactions between miRNA and SE.
 	-SE-interacted_pri-miRNA.txt, SE-interacted pri-miRNAs.
 	-SE-interacted_mature-miRNA.txt, mature miRNAs.
+
+A example is given:
+
+	python ./FineMapp_SNP2SE2miRNA.py \
+	-SNP ./example/example_SNP.txt \
+	-PCol p-value \
+	-outPrefix ./example/Res
+
+User could just run sh example.sh in command line.
+
+
