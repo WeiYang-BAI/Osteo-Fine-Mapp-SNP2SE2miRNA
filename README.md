@@ -5,7 +5,7 @@ This tool could help users to detect potential long-range effects of genome-wide
 
 Use the follow command to download:
 
-	$ git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA.git 
+	$ git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA-Osteo.git 
 
 Please run the follow command to check the helpdoc first:
 
