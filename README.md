@@ -20,7 +20,14 @@ And this will output a flag list:
 	
 	-outPrefix	Prefix for output results.
 
-The script will output the following five files:
+An example is given:
+
+	python ./FineMapp_SNP2SE2miRNA.py \
+	-SNP ./example/example_SNP.txt \
+	-PCol p-value \
+	-outPrefix ./example/Res
+	
+The script will output the following five files, run sh example.sh in command line for details:
 
 	-mapping.tsv, results of SNPs mapping to SEs.
 	-mappedSE-Bonferroni_sig.tsv, mapped SEs with P < 0.05/1224.
@@ -28,12 +35,7 @@ The script will output the following five files:
 	-SE-interacted_pri-miRNA.txt, SE-interacted pri-miRNAs.
 	-SE-interacted_mature-miRNA.txt, mature miRNAs.
 
-A example is given, run sh example.sh in command line for details.:
 
-	python ./FineMapp_SNP2SE2miRNA.py \
-	-SNP ./example/example_SNP.txt \
-	-PCol p-value \
-	-outPrefix ./example/Res
 
  Note that the step of long-range interaction identification between Super-Enhancer and miRNA may take a while. 
 
