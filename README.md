@@ -1,4 +1,4 @@
-# Fine-Mapp-SNP2SE2miRNA
+# Fine-Mapp-SNP2SE2miRNA-Osteo
 
 This tool could help users to detect potential long-range effects of genome-wide SNPs on miRNA via super-enhancers in human osteoblast. Users could take a list of SNPs of interest as input, such as SNPs from GWAS summary results.
 
@@ -15,9 +15,9 @@ Arguments:
 	
 	-H/-h	Show this help-doc.
 
-	-SNP	The INDEPENDENT SNPs file, which consists of at least three tab-separated columns: chromosome, 
-		position and P-value. Extra columns are allowed, but the first two columns must be chromosome 
-		(1-22, X, Y) and position (in hg19). 
+	-SNP	The INDEPENDENT SNPs file, which consists of at least three tab-separated
+		columns: chromosome, position and P-value. Extra columns are allowed, but
+		the first two columns must be chromosome (1-22, X, Y) and position (in hg19). 
 	
 	-PCol	Columns name of P-value in the SNP input file.
 	
