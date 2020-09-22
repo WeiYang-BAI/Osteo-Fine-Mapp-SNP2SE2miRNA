@@ -5,13 +5,13 @@ This is an easily-to-use tool for users to detect potential long-range effects o
 
 Use the follow command to download:
 
-	git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA.git 
+	$ git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA.git 
 
 Please run the follow command to check the helpdoc first:
 
-	python ./FineMapp_SNP2SE2miRNA.py -H
+	$ python ./FineMapp_SNP2SE2miRNA.py -H
 	
-And this will output a flag list:
+Arguments are showed below:
 	
 	-H/-h	Show this help-doc.
 
@@ -23,14 +23,11 @@ And this will output a flag list:
 	
 	-outPrefix	Prefix for output results.
 
-An example is given:
+An example is given, run it in the command line for details:
 
-	python ./FineMapp_SNP2SE2miRNA.py \
-	-SNP ./example/example_SNP.txt \
-	-PCol p-value \
-	-outPrefix ./example/Res
+	$ sh example.sh
 	
-The script will output the following five files, run sh example.sh in command line for details:
+Output:
 
 	-mapping.tsv, results of SNPs mapping to SEs.
 	-mappedSE-Bonferroni_sig.tsv, mapped SEs with P < 0.05/1224.
