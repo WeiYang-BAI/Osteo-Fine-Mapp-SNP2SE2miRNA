@@ -7,13 +7,13 @@ Use the follow command to download:
 
 	$ git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA-Osteo.git 
 
-Please run the follow command to check the helpdoc first:
+Please run the follow command to to see the help message:
 
 	$ python ./FineMapp_SNP2SE2miRNA.py -H
 	
 Arguments:
 	
-	-H/-h	Show this help-doc.
+	-H/-h	show this help message and exit.
 
 	-SNP	The INDEPENDENT SNPs file, which consists of at least three tab-separated
 		columns: chromosome, position and P-value. Extra columns are allowed, but
