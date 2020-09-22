@@ -1,5 +1,7 @@
 # Fine-Mapp-SNP2SE2miRNA
 
+This is an easily-to-use tool for users to detect potential long-range effects of SNPs on miRNA via super-enhancers in human osteoblast. 
+
 Use the follow command to download:
 
 	git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA.git 
