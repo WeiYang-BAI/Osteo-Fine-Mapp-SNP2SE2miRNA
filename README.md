@@ -1,6 +1,6 @@
 # Fine-Mapp-SNP2SE2miRNA
 
-This is an easily-to-use tool for users to detect potential long-range effects of SNPs on miRNA via super-enhancers in human osteoblast. 
+This tool could help users to detect potential long-range effects of genome-wide SNPs on miRNA via super-enhancers in human osteoblast. Users could take a list of SNPs of interest as input, such as SNPs from GWAS summary results.
 
 
 Use the follow command to download:
