@@ -1,11 +1,10 @@
 # Fine-Mapp-SNP2SE2miRNA
 
-
-
 Use the follow command to download:
+  git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA.git
 
 Please run the follow command to check the helpdoc first:
-	./reference_panel_re-construction.py -H
+  ./reference_panel_re-construction.py -H
 	
 And this will output a flag list, User can set the study population, diverse populations, step size and adding times with these flags:
 	
