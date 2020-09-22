@@ -1,11 +1,11 @@
-# Fine-Mapp-SNP2SE2miRNA-Osteo
+# Osteo-Fine-Mapp-SNP2SE2miRNA
 
 This tool could help users to detect potential long-range effects of genome-wide SNPs on miRNA via super-enhancers in human osteoblast. Users could take a list of SNPs of interest as input, such as SNPs from GWAS summary results.
 
 
 Use the follow command to download:
 
-	$ git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA-Osteo.git 
+	$ git clone https://github.com/WeiYang-BAI/Osteo-Fine-Mapp-SNP2SE2miRNA.git 
 
 Please run the follow command to to see the help message:
 
