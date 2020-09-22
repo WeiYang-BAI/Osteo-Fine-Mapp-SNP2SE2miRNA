@@ -5,9 +5,10 @@ Use the follow command to download:
 	git clone https://github.com/WeiYang-BAI/Fine-Mapp-SNP2SE2miRNA.git 
 
 Please run the follow command to check the helpdoc first:
-  ./reference_panel_re-construction.py -H
+
+	python ./FineMapp_SNP2SE2miRNA.py -H
 	
-And this will output a flag list, User can set the study population, diverse populations, step size and adding times with these flags:
+And this will output a flag list:
 	
 	-H/-h	Show this help-doc.
 
@@ -18,8 +19,7 @@ And this will output a flag list, User can set the study population, diverse pop
 	-PCol	Columns name of P-value in the SNP input file.
 	-outPrefix	Prefix for output results.
 
-Note that the step of long-range interaction identification
-between Super-Enhancer and miRNA may take a while.
+Note that the step of long-range interaction identification between Super-Enhancer and miRNA may take a while.
 
 The script will output the following five files:
 
