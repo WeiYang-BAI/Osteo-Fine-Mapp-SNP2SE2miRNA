@@ -153,7 +153,7 @@ def ExtracMiRNA(outPut, miRNAFile):
 
 if __name__ == '__main__':
 		helpDoc = '''
--H/-h	Show this help-doc.
+-H/-h	Show this help message and exit.
 
 -SNP	The INDEPENDENT SNPs file, which consists of at least 
 	three tab-separated columns: chromosome, position and P-value.
