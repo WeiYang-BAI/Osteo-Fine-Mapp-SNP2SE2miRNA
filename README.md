@@ -11,13 +11,11 @@ Please run the follow command to check the helpdoc first:
 
 	$ python ./FineMapp_SNP2SE2miRNA.py -H
 	
-Arguments are showed below:
+Arguments:
 	
 	-H/-h	Show this help-doc.
 
-	-SNP	The INDEPENDENT SNPs file, which consists of at least 
-		three tab-separated columns: chromosome, position and P-value.
-		Extra columns are allowed, but the first two columns must be
+	-SNP	The INDEPENDENT SNPs file, which consists of at least three tab-separated columns: chromosome, position and P-value. Extra columns are allowed, but the first two columns must be
 		chromosome (1-22, X, Y) and position (in hg19). 
 	-PCol	Columns name of P-value in the SNP input file.
 	
