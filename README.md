@@ -17,9 +17,8 @@ And this will output a flag list:
 		Extra columns are allowed, but the first two columns must be
 		chromosome (1-22, X, Y) and position (in hg19). 
 	-PCol	Columns name of P-value in the SNP input file.
+	
 	-outPrefix	Prefix for output results.
-
-Note that the step of long-range interaction identification between Super-Enhancer and miRNA may take a while.
 
 The script will output the following five files:
 
@@ -29,13 +28,13 @@ The script will output the following five files:
 	-SE-interacted_pri-miRNA.txt, SE-interacted pri-miRNAs.
 	-SE-interacted_mature-miRNA.txt, mature miRNAs.
 
-A example is given:
+A example is given, run sh example.sh in command line for details.:
 
 	python ./FineMapp_SNP2SE2miRNA.py \
 	-SNP ./example/example_SNP.txt \
 	-PCol p-value \
 	-outPrefix ./example/Res
 
-User could just run sh example.sh in command line.
+ Note that the step of long-range interaction identification between Super-Enhancer and miRNA may take a while. 
 
 
